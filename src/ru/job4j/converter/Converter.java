@@ -12,6 +12,7 @@ public class Converter {
     }
 
     public static void main(String[] args){
+
       int euro = Converter.rubleToEuro(140);
       int expected = 2;
       boolean out = euro == expected;
@@ -21,5 +22,6 @@ public class Converter {
       expected = 3;
       out = dollar == expected;
       System.out.println("180 rubles are 3. Test result: " + out);
+
     }
 }
