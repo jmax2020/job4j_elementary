@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 public class FitTest {
 
     @Test
-    public void whenMan190Then103(){
+    public void whenMan190Then103() {
         short manWeight = 190;
         double res = Fit.manWeight(manWeight);
         double expected = 103.5;
