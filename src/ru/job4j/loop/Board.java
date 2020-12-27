@@ -4,7 +4,7 @@ public class Board {
     public static void paint(int width, int height) {
         for (int i = 1; i <= width; i++) {
             for (int y = 1; y <= height; y++) {
-                if ((i == 0 && y == 0) || ((i + y) % 2 == 0)) {
+                if ((i + y) % 2 == 0) {
                     System.out.print("X");
                 } else {
                     System.out.print(" ");
