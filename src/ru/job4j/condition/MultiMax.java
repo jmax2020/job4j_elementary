@@ -3,7 +3,7 @@ package ru.job4j.condition;
 public class MultiMax {
     @SuppressWarnings("checkstyle:RightCurly")
     public static int max(int first, int second, int third) {
-            int result = 0;
+            int result;
             if (first > second) {
                 if (first > third) {
                     result = first;
@@ -20,7 +20,7 @@ public class MultiMax {
             return result;
     }
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
         int m = max(12, 23, 34);
         System.out.println(m);
     }

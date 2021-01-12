@@ -7,7 +7,6 @@ public class Matrix {
             for (int j = 0; j < mass[0].length; j++) {
                 mass[i][j] = (i + 1) * (j + 1);
             }
-
         }
         return mass;
     }

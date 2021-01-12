@@ -6,12 +6,11 @@ public class X2 {
     }
 
     //квадратное уравнение
-    public static void Main(String[] args) {
+    public static void main(String[] args) {
         int a = 10;
         int b = 0;
         int c = 0;
         int x = 1;
-
         int res = X2.calc(a, b, c, x);
         System.out.println(res);
     }
